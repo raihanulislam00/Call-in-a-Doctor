@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7E92507-B113-41D4-9A5C-262ED3E7CEFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Call_in_a_Doctor</RootNamespace>
+    <AssemblyName>Call in a Doctor</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Dell\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1165E5EC27DA55481E1D50D776100C8581FF4FC5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Call in a Doctor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminConsultancyReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminConsultancyReq.Designer.cs">
+      <DependentUpon>AdminConsultancyReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCreateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCreateAdmin.Designer.cs">
+      <DependentUpon>AdminCreateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctorDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorDeleteAccount.Designer.cs">
+      <DependentUpon>AdminDoctorDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctorShowInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorShowInformation.Designer.cs">
+      <DependentUpon>AdminDoctorShowInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctorUpdateInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorUpdateInformation.Designer.cs">
+      <DependentUpon>AdminDoctorUpdateInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPatientDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPatientDeleteAccount.Designer.cs">
+      <DependentUpon>AdminPatientDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPatientShowInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPatientShowInformation.Designer.cs">
+      <DependentUpon>AdminPatientShowInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPatientUpdateInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPatientUpdateInformation.Designer.cs">
+      <DependentUpon>AdminPatientUpdateInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRemoveAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRemoveAdmin.Designer.cs">
+      <DependentUpon>AdminRemoveAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminShowAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminShowAdmin.Designer.cs">
+      <DependentUpon>AdminShowAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateAdmin.Designer.cs">
+      <DependentUpon>AdminUpdateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallinaDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallinaDoctor.Designer.cs">
+      <DependentUpon>CallinaDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallinDrAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallinDrAli.Designer.cs">
+      <DependentUpon>CallinDrAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallinDrGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallinDrGulshan.Designer.cs">
+      <DependentUpon>CallinDrGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallingPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallingPatient.Designer.cs">
+      <DependentUpon>CallingPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallinPaymentAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallinPaymentAli.Designer.cs">
+      <DependentUpon>CallinPaymentAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallinPaymentGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallinPaymentGulshan.Designer.cs">
+      <DependentUpon>CallinPaymentGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeltaHospitalLimitedICUPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeltaHospitalLimitedICUPayment.Designer.cs">
+      <DependentUpon>DeltaHospitalLimitedICUPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListDermatologyAndVenereology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListDermatologyAndVenereology.Designer.cs">
+      <DependentUpon>DoctorsListDermatologyAndVenereology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListNephrology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListNephrology.Designer.cs">
+      <DependentUpon>DoctorsListNephrology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListNeurology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListNeurology.Designer.cs">
+      <DependentUpon>DoctorsListNeurology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListObstetricsAndGynaecology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListObstetricsAndGynaecology.Designer.cs">
+      <DependentUpon>DoctorsListObstetricsAndGynaecology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListOrthopedics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListOrthopedics.Designer.cs">
+      <DependentUpon>DoctorsListOrthopedics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsListUrology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsListUrology.Designer.cs">
+      <DependentUpon>DoctorsListUrology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreeAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreeAlim.Designer.cs">
+      <DependentUpon>FreeAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FreePaymentAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreePaymentAlim.Designer.cs">
+      <DependentUpon>FreePaymentAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BangladeshSpecializedHospitalICUPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BangladeshSpecializedHospitalICUPayment.Designer.cs">
+      <DependentUpon>BangladeshSpecializedHospitalICUPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonAlim.Designer.cs">
+      <DependentUpon>InPersonAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonATM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonATM.Designer.cs">
+      <DependentUpon>InPersonATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonAli.Designer.cs">
+      <DependentUpon>InPersonAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonDrGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonDrGulshan.Designer.cs">
+      <DependentUpon>InPersonDrGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonDrJasmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonDrJasmin.Designer.cs">
+      <DependentUpon>InPersonDrJasmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonFahmida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonFahmida.Designer.cs">
+      <DependentUpon>InPersonFahmida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentAli.Designer.cs">
+      <DependentUpon>InPersonPaymentAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentAlim.Designer.cs">
+      <DependentUpon>InPersonPaymentAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentATM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentATM.Designer.cs">
+      <DependentUpon>InPersonPaymentATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentFahmida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentFahmida.Designer.cs">
+      <DependentUpon>InPersonPaymentFahmida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentGulshan.Designer.cs">
+      <DependentUpon>InPersonPaymentGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InPersonPaymentJasmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InPersonPaymentJasmin.Designer.cs">
+      <DependentUpon>InPersonPaymentJasmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentGulshan.Designer.cs">
+      <DependentUpon>OnlinePaymentGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrAli.Designer.cs">
+      <DependentUpon>OnlineDrAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrAlim.Designer.cs">
+      <DependentUpon>OnlineDrAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeDoctor.Designer.cs">
+      <DependentUpon>homeDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homePatient.Designer.cs">
+      <DependentUpon>homePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeAdmin.Designer.cs">
+      <DependentUpon>homeAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrATM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrATM.Designer.cs">
+      <DependentUpon>OnlineDrATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrFahmida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrFahmida.Designer.cs">
+      <DependentUpon>OnlineDrFahmida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrGulshan.Designer.cs">
+      <DependentUpon>OnlineDrGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineDrJasmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineDrJasmin.Designer.cs">
+      <DependentUpon>OnlineDrJasmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentAli.Designer.cs">
+      <DependentUpon>OnlinePaymentAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentAlim.Designer.cs">
+      <DependentUpon>OnlinePaymentAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentATM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentATM.Designer.cs">
+      <DependentUpon>OnlinePaymentATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentFahmida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentFahmida.Designer.cs">
+      <DependentUpon>OnlinePaymentFahmida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlinePaymentJasmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlinePaymentJasmin.Designer.cs">
+      <DependentUpon>OnlinePaymentJasmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendPrescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendPrescription.Designer.cs">
+      <DependentUpon>SendPrescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBarAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBarAdmin.Designer.cs">
+      <DependentUpon>ProgressBarAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPrescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPrescription.Designer.cs">
+      <DependentUpon>ShowPrescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProfileDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProfileDoctor.Designer.cs">
+      <DependentUpon>UpdateProfileDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProfilePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProfilePatient.Designer.cs">
+      <DependentUpon>UpdateProfilePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regDoctor.Designer.cs">
+      <DependentUpon>regDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="regPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regPatient.Designer.cs">
+      <DependentUpon>regPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrAli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrAli.Designer.cs">
+      <DependentUpon>SearchDrAli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrAlim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrAlim.Designer.cs">
+      <DependentUpon>SearchDrAlim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrATM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrATM.Designer.cs">
+      <DependentUpon>SearchDrATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrFahmida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrFahmida.Designer.cs">
+      <DependentUpon>SearchDrFahmida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrGulshan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrGulshan.Designer.cs">
+      <DependentUpon>SearchDrGulshan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDrJasmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDrJasmin.Designer.cs">
+      <DependentUpon>SearchDrJasmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQUAREHospitalLtdICUPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQUAREHospitalLtdICUPayment.Designer.cs">
+      <DependentUpon>SQUAREHospitalLtdICUPayment.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminConsultancyReq.resx">
+      <DependentUpon>AdminConsultancyReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCreateAdmin.resx">
+      <DependentUpon>AdminCreateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctorDeleteAccount.resx">
+      <DependentUpon>AdminDoctorDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctorShowInformation.resx">
+      <DependentUpon>AdminDoctorShowInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctorUpdateInformation.resx">
+      <DependentUpon>AdminDoctorUpdateInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPatientDeleteAccount.resx">
+      <DependentUpon>AdminPatientDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPatientShowInformation.resx">
+      <DependentUpon>AdminPatientShowInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPatientUpdateInformation.resx">
+      <DependentUpon>AdminPatientUpdateInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRemoveAdmin.resx">
+      <DependentUpon>AdminRemoveAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminShowAdmin.resx">
+      <DependentUpon>AdminShowAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateAdmin.resx">
+      <DependentUpon>AdminUpdateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallinaDoctor.resx">
+      <DependentUpon>CallinaDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallinDrAli.resx">
+      <DependentUpon>CallinDrAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallinDrGulshan.resx">
+      <DependentUpon>CallinDrGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallingPatient.resx">
+      <DependentUpon>CallingPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallinPaymentAli.resx">
+      <DependentUpon>CallinPaymentAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallinPaymentGulshan.resx">
+      <DependentUpon>CallinPaymentGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeltaHospitalLimitedICUPayment.resx">
+      <DependentUpon>DeltaHospitalLimitedICUPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListDermatologyAndVenereology.resx">
+      <DependentUpon>DoctorsListDermatologyAndVenereology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListNephrology.resx">
+      <DependentUpon>DoctorsListNephrology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListNeurology.resx">
+      <DependentUpon>DoctorsListNeurology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListObstetricsAndGynaecology.resx">
+      <DependentUpon>DoctorsListObstetricsAndGynaecology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListOrthopedics.resx">
+      <DependentUpon>DoctorsListOrthopedics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsListUrology.resx">
+      <DependentUpon>DoctorsListUrology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeAlim.resx">
+      <DependentUpon>FreeAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreePaymentAlim.resx">
+      <DependentUpon>FreePaymentAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BangladeshSpecializedHospitalICUPayment.resx">
+      <DependentUpon>BangladeshSpecializedHospitalICUPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonAlim.resx">
+      <DependentUpon>InPersonAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonATM.resx">
+      <DependentUpon>InPersonATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonAli.resx">
+      <DependentUpon>InPersonAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonDrGulshan.resx">
+      <DependentUpon>InPersonDrGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonDrJasmin.resx">
+      <DependentUpon>InPersonDrJasmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonFahmida.resx">
+      <DependentUpon>InPersonFahmida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentAli.resx">
+      <DependentUpon>InPersonPaymentAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentAlim.resx">
+      <DependentUpon>InPersonPaymentAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentATM.resx">
+      <DependentUpon>InPersonPaymentATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentFahmida.resx">
+      <DependentUpon>InPersonPaymentFahmida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentGulshan.resx">
+      <DependentUpon>InPersonPaymentGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPersonPaymentJasmin.resx">
+      <DependentUpon>InPersonPaymentJasmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentGulshan.resx">
+      <DependentUpon>OnlinePaymentGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrAli.resx">
+      <DependentUpon>OnlineDrAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrAlim.resx">
+      <DependentUpon>OnlineDrAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeDoctor.resx">
+      <DependentUpon>homeDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homePatient.resx">
+      <DependentUpon>homePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeAdmin.resx">
+      <DependentUpon>homeAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrATM.resx">
+      <DependentUpon>OnlineDrATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrFahmida.resx">
+      <DependentUpon>OnlineDrFahmida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrGulshan.resx">
+      <DependentUpon>OnlineDrGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineDrJasmin.resx">
+      <DependentUpon>OnlineDrJasmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentAli.resx">
+      <DependentUpon>OnlinePaymentAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentAlim.resx">
+      <DependentUpon>OnlinePaymentAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentATM.resx">
+      <DependentUpon>OnlinePaymentATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentFahmida.resx">
+      <DependentUpon>OnlinePaymentFahmida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlinePaymentJasmin.resx">
+      <DependentUpon>OnlinePaymentJasmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendPrescription.resx">
+      <DependentUpon>SendPrescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarAdmin.resx">
+      <DependentUpon>ProgressBarAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPrescription.resx">
+      <DependentUpon>ShowPrescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProfileDoctor.resx">
+      <DependentUpon>UpdateProfileDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProfilePatient.resx">
+      <DependentUpon>UpdateProfilePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="regDoctor.resx">
+      <DependentUpon>regDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regPatient.resx">
+      <DependentUpon>regPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrAli.resx">
+      <DependentUpon>SearchDrAli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrAlim.resx">
+      <DependentUpon>SearchDrAlim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrATM.resx">
+      <DependentUpon>SearchDrATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrFahmida.resx">
+      <DependentUpon>SearchDrFahmida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrGulshan.resx">
+      <DependentUpon>SearchDrGulshan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDrJasmin.resx">
+      <DependentUpon>SearchDrJasmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQUAREHospitalLtdICUPayment.resx">
+      <DependentUpon>SQUAREHospitalLtdICUPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Call in a Doctor_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calling.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel Call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AminProgress.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatient.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatientShowInfo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatientShowInfo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatientUpdate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatientUpdate1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminPatientDelete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminCreateAdmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminCreateAdmin1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CallinaDoctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CallinaDoctorBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regDoctor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regDoctor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regPatient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatient.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientHome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientOnline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientOnline1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientInPerson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientCallin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientInFree.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientProfile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homePatientInSupport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeDoctorHome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeDoctorHome1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeDoctorSupport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateProfileDoctor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminConsultancy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forgotPassword.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForgotPassword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presecrition.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prescription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrescriptionForm.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

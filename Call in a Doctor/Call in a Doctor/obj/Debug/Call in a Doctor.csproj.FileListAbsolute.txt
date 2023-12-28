@@ -1,0 +1,83 @@
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\bin\Debug\Call in a Doctor.exe.config
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\bin\Debug\Call in a Doctor.exe.manifest
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\bin\Debug\Call in a Doctor.application
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\bin\Debug\Call in a Doctor.exe
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\bin\Debug\Call in a Doctor.pdb
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.csprojAssemblyReference.cache
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallinaDoctor.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallinDrAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallinDrGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallinPaymentAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallinPaymentDrGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDeltaHospitalLimitedICUPayment.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListDermatologyAndVenereology.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListNephrology.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListNeurology.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListObstetricsAndGynaecology.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListOrthopedics.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmDoctorsListUrology.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmFreeAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmFreePaymentAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmBangladeshSpecializedHospitalICUPayment.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonATM.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonDrAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonDrGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonDrJasmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonFahmida.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentATM.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentFahmida.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmInPersonPaymentJasmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.OnlinePaymentGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmHomeDoctor.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmHomePatient.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmHomeAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineATM.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineFahmida.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlineJasmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlinePaymentAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlinePaymentAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlinePaymentATM.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlinePaymentFahmida.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmOnlinePaymentJasmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmPatientProfileUpdate.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.Properties.Resources.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmRegDoctor.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmRegPatient.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrAli.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrAlim.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrATM.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrFahmida.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrGulshan.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSearchDrJasmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.csproj.GenerateResource.cache
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.csproj.CoreCompileInputs.cache
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.exe.manifest
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.application
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.exe
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call in a Doctor.pdb
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmSQUAREHospitalLtdICUPayment.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmCallingPatient.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmUpdateProfileDoctor.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmProgressBarAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminPatientShowInformation.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminPatientUpdateInformation.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminPatientDeleteAccount.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminDoctorShowInformation.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminDoctorUpdateInformation.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminDoctorDeleteAccount.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminCreateAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminShowAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminUpdateAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminRemoveAdmin.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmAdminConsultancyReq.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmForgotPassword.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmFeedback.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmPrescription.resources
+F:\AIUB\8th Semester\OBJECT ORIENTED PROGRAMMING 2\Final\Project\Call in a Doctor\Call in a Doctor\obj\Debug\Call_in_a_Doctor.frmShowPrescription.resources
